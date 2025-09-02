@@ -111,8 +111,8 @@ function playGame(playerMove) {
   document.querySelector('.js-result').innerHTML = result;
 
   document.querySelector('.js-moves').innerHTML = `You
-<img src="images/${playerMove}-emoji.png" class="move-icon">
-<img src="images/${computerMove}-emoji.png" class="move-icon">
+<img src="Images/${playerMove}-emoji.png" class="move-icon">
+<img src="Images/${computerMove}-emoji.png" class="move-icon">
 Computer`;
 }
 
@@ -139,4 +139,5 @@ function pickComputerMove() {
 
 function resetButton_Alert(){
   alert("Reset score operation has been performed");
+
 }
